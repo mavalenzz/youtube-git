@@ -37,3 +37,20 @@ no me funciono xd mejor control + o, enter y control + x
 #COMO PARA QUE NOS CENTREMOS EN LA RAMA MASTER
 10. git checkout master
 
+#SI QUEREMOS COMBINAR AMBAS RAMAS 
+11. git merge nombre_rama
+
+#PARA BORRAR UNA RAMA
+12. git branch -d nombre_rama
+
+#PARA VINCULAR CON GIT HUB,
+13. crea un repositorio, luego aniade estos comandos 
+
+    git remote add origin https://github.com/mavalenzz/youtube-git.git
+    git branch -M main
+    git push -u origin main
+
+    capaz te pida alguna autorizacion
+
+#PARA SUBIR AL REPOSITORIO DE GIT HUB
+14. git push
